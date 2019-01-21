@@ -5,11 +5,10 @@ class Project
   def initialize(title)
     @title = title
     @backers = []
-    if (self.backer.nil?)
-      self.backer = Backer.new(name)
-    else
-      self.backer.name = name
-    end
+  end
+
+  def add_backer(backer)
+    @backers << backer 
   end
 
 end
