@@ -8,7 +8,5 @@ attr_accessor :backed_projects
     @backed_projects = []
   end
 
-  def add_projects
-
 
 end 
