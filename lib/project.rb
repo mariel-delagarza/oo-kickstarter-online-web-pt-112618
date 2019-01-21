@@ -9,6 +9,7 @@ class Project
       self.backer = Backer.new(name)
     else
       self.backer.name = name
+    end 
   end
 
 end 
